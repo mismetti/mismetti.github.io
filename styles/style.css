@@ -1,0 +1,160 @@
+.logo{
+    fill:#b89592;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700&display=swap');
+
+body, html{
+    height: 100%;
+}
+
+body{
+
+    background-image: url("/images/2b.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #FEE8E2;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.site-container
+{
+    width: 100%;
+    height: 100%;
+    border: 24px solid #FEE8E2;
+
+}
+
+.border
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #232625;
+}
+
+.flex-logo{
+    padding: 100px;
+    display: grid;
+    
+
+}
+
+.container {
+    height: 100vh;
+}
+
+.logo-nome{
+
+    color: #232625;
+    font-weight: 100;
+    font-family: 'Roboto Serif', monospace;
+    text-shadow: 1px 1px 2px #F8C8C5;
+    font-size: 3rem;
+
+}
+
+
+.logo-subtitle{
+
+    color: #bd8d89;
+    font-weight: 300;
+    font-family: 'Roboto', monospace;
+    font-size: 1rem;
+}
+
+.grid-button {
+    margin-top: 30px;
+    justify-self: flex-start;
+    display: flex;
+    gap: 50px;
+}
+
+.button-style-1{
+    padding: 20px;
+    font-family: 'roboto', sans-serif;
+    background-color: #fcdad7;
+    border: 1px solid #dab6b3;
+    transition: 0.3s all;
+    color: #232625;
+    text-transform: none;
+}
+
+.button-style-1:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 2px #b89592;
+    transition: 0.3s all;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.container-grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-menu{
+    padding: 10px;
+    display: grid;
+    margin: 20px 0 0 0;
+}
+.grid-menu a{
+    align-self: end;
+    margin: 0 50px 0 0;
+}
+
+.menu{
+    display: grid;
+    justify-self: end;
+    padding: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #232625;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.menu a:hover{
+    color: #b89592;
+}
+
+.menu-socials{
+    margin-top: 35px;
+    display: flex;
+    justify-content: start;
+}
+
+
+.menu-socials img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    
+}
+@media (max-width:550px){
+    body{
+        background-position: 0 50px;
+    }
+
+    .flex-logo{
+        
+        font-size: 2em;
+    }
+}
